@@ -9,7 +9,7 @@ COMPONENT_ADD_INCLUDEDIRS = include
 COMPONENT_ADD_LDFLAGS = -lapp_trace
 
 # do not produce gcov info for this module, it is used as transport for gcov
-CFLAGS := $(subst --coverage,,$(CFLAGS))
+#CFLAGS := $(subst --coverage,,$(CFLAGS))
 
 ifdef CONFIG_SYSVIEW_ENABLE
 
